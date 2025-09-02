@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+nav{
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+  border-bottom: 1px solid #eee;
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+}
+
+.fur2 a {
+color: black;
+ text-decoration: none;
+ padding: 0px 25px;
+}
+.fur3 a {
+color: black;
+ text-decoration: none;
+ padding: 0px 15px;
+}
+.sec1 {
+  background: url("img/Rectangle\ 1.png");
+  height: 250px;                 
+  display: flex;               
+  justify-content: center;       
+  align-items: center;           
+  text-align: center;
+}
+
+.allsec1 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;           
+}
+
+.logsec1 {
+  width: 60px;
+  height: auto;
+}
+
+.allsec1 h2 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.allsec1 span {
+  font-size: 14px;
+  color: #000000;
+}
+.sec2{
+    background-color: white;
+      display: flex; 
+}
+.pro1{
+    width: 70%;
+}
+.pro1 ul{
+   margin-left: 300px;
+    margin-top: 40px;
+    background-image: url(img/Rectangle\ 55.png);
+}
+.pro1 ul li{
+    display: inline-block;
+    padding-left: 40px;
+padding-top:20px ;
+padding-bottom:20px ;
+}

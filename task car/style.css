@@ -1,0 +1,25 @@
+ body {
+      margin: 0;
+      background: #ffffff;
+    }
+    .road {
+      width: 100%;
+      height: 150px;
+      background-image: url(img/straight-road-travel-concept-illustration-png.webp);
+      position: relative;
+      overflow: hidden;
+    }
+    .car {
+      position: absolute;
+      top: 50%;
+      left: -200px;
+      transform: translateY(-50%);
+      animation: moveCar 5s linear infinite;
+    }
+    .car img {
+      width: 150px;
+    }
+    @keyframes moveCar {
+      from { left: -200px; }
+      to { left: 100%; }
+    }
